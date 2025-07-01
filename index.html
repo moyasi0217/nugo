@@ -59,7 +59,7 @@
         if (cmd === '！') memory[pointer] *= 2;
         if (cmd === '？') memory[pointer] *= 4;
         if (cmd === '～') {
-          outputDiv.textContent += String.fromCharCode((memory[pointer])+96);
+          outputDiv.textContent += String.fromCharCode((memory[pointer]));
         }
 
         // 範囲チェック
